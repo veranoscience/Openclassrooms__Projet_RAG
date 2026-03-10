@@ -45,6 +45,20 @@ def health():
     return {"status": "ok"}
 
 
+@app.get("/metadata")
+def metadata():
+    engine = get_engine()
+    total_docs = engine.vs.index.ntotal if hasattr(engine.vs, "index") else None
+    return {
+        "embedding_model": engine.config.embedding_model,
+        "llm_model": engine.config.mistral_model,
+        "retrieve_k": engine.config.retrieve_k,
+        "max_events": engine.config.max_events,
+        "score_threshold": engine.config.score_threshold,
+        "total_documents_indexed": total_docs,
+    }
+
+
 @app.post("/ask", response_model=AskResponse)
 def ask(payload: AskRequest):
     engine = get_engine()
