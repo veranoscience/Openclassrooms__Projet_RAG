@@ -1,0 +1,117 @@
+id,question,answer,contexts,ground_truth
+q1,Quels événements cinéma ou court métrage à Paris en mars 2026 ?,"Voici un événement cinéma à Paris en mars 2026 correspondant à votre demande :
+
+**Prix Lux 2026 : avant-première du film *Sorda***
+- **Dates** : 5 mars 2026, 18h30 - 21h30
+- **Lieu** : Cinéma des Cinéastes (7 Avenue de Clichy, 75017 Paris)
+- **Description** : Projection organisée par le Parlement européen en France.
+- **Lien** : [Plus d'informations](https://openagenda.com/europe-reunion/events/prix-lux-2026-avant-premiere-du-film-sorda)
+
+D'après les documents fournis, je n'ai pas trouvé d'autres événements dédiés au cinéma ou aux courts métrages en mars 2026.",,En mars 2026 à Paris, le Prix Lux 2026 présente l'avant-première du film Sorda le 5 mars 2026 au Cinéma des Cinéastes (7 Avenue de Clichy, 75017 Paris).
+q2,Quels concerts jazz à Paris en janvier 2026 ?,"Voici des concerts jazz à Paris en janvier 2026 d'après les documents fournis :
+
+1. **LE BALCON : LES LUNDIS MUSICAUX - A New Declaration**
+   - **Date** : 12 janvier 2026, 19h00
+   - **Lieu** : Théâtre de l'Athénée Louis-Jouvet (7 rue Boudreau, Paris)
+   - **Artistes** : Kunal Lahiry, Jarrett Ott
+   - **Lien** : [Plus d'informations](https://openagenda.com/culture/events/les-lundis-musicaux-a-new-declaration)
+
+2. **PEGAZZ & l'HELICON : Rose(S)**
+   - **Date** : 17 janvier 2026, 19h00
+   - **Lieu** : Le Pan Piper (2 Impasse Lamier, Paris 11e)
+   - **Mots-clés** : jazz, improvisation, piano préparé
+   - **Lien** : [Plus d'informations](https://openagenda.com/culture/events/pegazz-and-lhelicon-roses)
+
+3. **PEGAZZ & l'HELICON : Schwab Soro**
+   - **Date** : 24 janvier 2026, 13h30
+   - **Lieu** : École Alésia (3 rue d'Alésia, Paris)
+   - **Mots-clés** : duo, jazz, saxophone, contrebasse
+   - **Conditions** : entrée libre
+   - **Lien** : [Plus d'informations](https://openagenda.com/culture/events/schwab-soro-1353233)",,En janvier 2026 à Paris, trois concerts jazz sont programmés : LE BALCON - A New Declaration le 12 janvier à l'Athénée Louis-Jouvet avec Kunal Lahiry et Jarrett Ott ; PEGAZZ & l'HELICON : Rose(S) le 17 janvier au Pan Piper ; PEGAZZ & l'HELICON : Schwab Soro le 24 janvier à l'École Alésia (entrée libre).
+q3,Quels événements autour du théâtre à Paris en mai 2026 ?,"Voici deux événements autour du théâtre à Paris en mai 2026 :
+
+1. **L'avenir des reflets**
+   - **Dates** : Du 19 mai 2026 (17h30) au 20 juin 2026
+   - **Lieu** : Théâtre National de la Colline (15 rue Malte Brun, Paris)
+   - **Lien** : [L'avenir des reflets](https://openagenda.com/culture/events/lavenir-des-reflets)
+
+2. **Notre Humble Avis**
+   - **Dates** : Du 19 mai 2026 (18h30) au 6 juin 2026
+   - **Lieu** : Athénée Théâtre Louis-Jouvet (4 square de l'Opéra Louis-Jouvet, 75009 Paris)
+   - **Description** : Spectacle mêlant théâtre de masque et théâtre.
+   - **Lien** : [Notre Humble Avis](https://openagenda.com/culture/events/notre-humble-avis)",,En mai 2026 à Paris, deux spectacles de théâtre sont à l'affiche : L'avenir des reflets au Théâtre National de la Colline à partir du 19 mai jusqu'au 20 juin ; Notre Humble Avis à l'Athénée Théâtre Louis-Jouvet du 19 mai au 6 juin (théâtre de masque, tarifs 12€ à 22€).
+q4,Quels événements scientifiques ou conférences à Paris en avril 2026 ?,"D'après les documents fournis, voici les événements scientifiques à Paris en avril 2026 :
+
+1. **Science actualités**
+   - **Lieu** : Cité des sciences et de l'Industrie (30 avenue Corentin Cariou, 75019 Paris)
+   - **Dates** : Du 20 avril 2023 au 28 juin 2026 (inclut avril 2026)
+   - **Description** : Actualités scientifiques, accessible avec un billet d'entrée aux expositions.
+   - **Lien** : [Science actualités](https://openagenda.com/echosciences/events/science-actualites-1476538)
+
+2. **Planètes en vue !**
+   - **Lieu** : Cité des sciences et de l'Industrie (30 avenue Corentin Cariou, 75019 Paris)
+   - **Dates** : Du 10 octobre 2023 au 4 juillet 2026 (inclut avril 2026)
+   - **Lien** : [Planètes en vue](https://openagenda.com/aplf-planetariums/events/planetes-en-vue) *(lien incomplet dans le contexte)*
+
+*Note* : ""Noisettes"" ne semble pas être un événement scientifique (description absente). Aucun autre événement spécifique à avril 2026 n'est mentionné.",,En avril 2026 à Paris, la Cité des sciences et de l'Industrie propose Science actualités (exposition sur les actualités scientifiques, accessible avec billet) et Planètes en vue ! (découverte du système solaire et des exoplanètes).
+q5,Quels ateliers ou stages à Paris en décembre 2026 ?,"D'après les documents fournis, je n'ai pas trouvé d'événements correspondant spécifiquement à des **ateliers ou stages à Paris en décembre 2026**.
+
+Le seul événement mentionné dans le contexte est la **Bibliothèque de la Cité des sciences et de l'industrie**, ouverte du **9 décembre 2025 au 9 janvier 2028**, mais il ne s'agit pas d'un atelier ou stage.",,Aucun atelier ou stage spécifique à Paris n'est disponible dans la base pour décembre 2026. La Bibliothèque de la Cité des sciences et de l'industrie est ouverte pendant cette période mais aucun atelier n'y est mentionné.
+q6,Je cherche des événements à Paris sur l'art contemporain en 2026,"Voici des événements sur l'art contemporain à Paris en **2026** d'après les documents fournis :
+
+1. **Clairières**
+   - **Dates** : Jusqu'au 3 octobre 2026
+   - **Lieu** : Cité internationale des arts (18, rue de l'Hôtel de ville, 75004 Paris)
+   - **Conditions** : Entrée libre
+   - [Lien](https://openagenda.com/planlibre/events/clairieres)
+
+2. **Paris des vi(ll)es**
+   - **Dates** : Du 8 octobre 2025 au 24 janvier 2026
+   - **Lieu** : Cité internationale des arts (18, rue de l'Hôtel de ville, 75004 Paris)
+   - [Lien](https://openagenda.com/planlibre/events/paris-des-villes)
+
+3. **Carrier Bags of Power**
+   - **Dates** : Du 21 janvier au 21 février 2026
+   - **Lieu** : Cité internationale des arts (18, rue de l'Hôtel de ville, 75004 Paris)
+   - **Conditions** : Entrée libre
+   - [Lien](https://openagenda.com/planlibre/events/carrier-bags-of-power)",,En 2026 à Paris, plusieurs expositions d'art contemporain ont lieu à la Cité internationale des arts : Clairières (entrée libre, jusqu'au 3 octobre 2026) ; Paris des vi(ll)es (jusqu'au 24 janvier 2026) ; Carrier Bags of Power (entrée libre, du 21 janvier au 21 février 2026).
+q7,Quels événements musicaux ou concerts à Paris en 2025 ?,"Voici trois événements musicaux à Paris en 2025 d'après les documents fournis :
+
+1. **Jazz envoûtant à l'Esplanade**
+   - **Date** : 8 mars 2025, 17h-18h
+   - **Lieu** : Agence immobilière (ambiance feutrée), Paris 7ème
+   - **Description** : Soirée jazz dans un lieu insolite.
+   - **Lien** : [Plus d'informations](https://openagenda.com/hormur-plateforme-devenements-artistiques-dans-des-lieux-non-conventionnels/events/jazz-envoutant-a-lesplanade-reservez-votre-soiree)
+
+2. **Trio Balagan - Déhoussé**
+   - **Date** : 22 mars 2025, 14h-14h50
+   - **Lieu** : Lou Pascalou, 14 rue des Panoyaux, Paris 20ème
+   - **Description** : Concert gratuit dans le cadre du Festival Abracadabar-bars.
+   - **Lien** : [Plus d'informations](https://openagenda.com/abracadabar-bars/events/trio-balagan-dehousse)
+
+3. **Fête de la Bretagne à Paris 15e**
+   - **Dates** : 17-18 mai 2025, 9h-18h30
+   - **Lieu** : Place de la Mairie de Paris 15e (31, rue Péclet)
+   - **Description** : Deux jours de musique, danses et animations bretonnes (gratuit).
+   - **Lien** : [Plus d'informations](https://openagenda.com/fete-de-la-bretagne-2025/events/fete-de-la-bretagne-a-paris-15e-par-paris-breton)",,En 2025 à Paris, les événements musicaux incluent : Jazz envoûtant à l'Esplanade le 8 mars 2025 (soirée jazz en lieu insolite, Paris 7e) ; Trio Balagan - Déhoussé le 22 mars 2025 au Lou Pascalou (concert gratuit) ; Fête de la Bretagne les 17-18 mai 2025 place de la Mairie du 15e (musique et danses bretonnes, gratuit).
+q8,Quels événements de danse ou spectacle vivant à Paris en juin 2026 ?,"D'après les documents fournis, voici un événement de spectacle vivant à Paris en juin 2026 :
+
+**L'avenir des reflets**
+- **Dates** : Du 19 mai au 20 juin 2026
+- **Lieu** : Théâtre National de la Colline (15 rue Malte Brun, Paris)
+- **Lien** : [L'avenir des reflets](https://openagenda.com/culture/events/lavenir-des-reflets)",,En juin 2026 à Paris, le spectacle vivant L'avenir des reflets est présenté au Théâtre National de la Colline (15 rue Malte Brun) du 19 mai au 20 juin 2026.
+q9,Quelles visites guidées ou balades culturelles à Paris en janvier 2026 ?,"D'après les documents fournis, voici une balade culturelle à Paris en janvier 2026 :
+
+**Paris des vi(ll)es**
+- **Dates** : Du 8 octobre 2025 au 24 janvier 2026
+- **Lieu** : Cité internationale des arts (18, rue de l'Hôtel de ville, 75004 Paris)
+- **Lien** : [Plus d'informations](https://openagenda.com/planlibre/events/paris-des-villes)
+
+Les autres événements ne correspondent pas à des visites guidées ou balades culturelles en janvier 2026.",,En janvier 2026 à Paris, Paris des vi(ll)es à la Cité internationale des arts est accessible jusqu'au 24 janvier. L'atelier Apprentis graveurs au Musée de la Poste (34 Boulevard de Vaugirard) est disponible jusqu'au 3 janvier 2026.
+q10,Quels festivals culturels à Paris en mars 2026 ?,"D'après les documents fournis, voici un festival culturel à Paris en mars 2026 :
+
+**Festival Forêts en scène**
+- **Date** : 18 mars 2026
+- **Lieu** : Epée de Bois (100, rue Mouffetard, Paris)
+- **Description** : Séances spéciales en collaboration avec l'Office national des forêts.
+- **Lien** : [Festival Forêts en scène](https://openagenda.com/scare/events/festival-forets-en-scene)",,En mars 2026 à Paris, le Festival Forêts en scène se tient le 18 mars 2026 (19h-22h) à l'Épée de Bois (100 rue Mouffetard) avec des séances spéciales en collaboration avec l'Office national des forêts.

@@ -1,0 +1,50 @@
+Document1:
+Metadata: {'uid': 62865307, 'title': 'Peut-on s’entendre penser ?', 'city': 'Paris', 'department': 'Paris', 'region': 'Île-de-France', 'location_name': "Cité des sciences et de l'Industrie", 'location_address': '30 avenue Corentin Cariou, 75019 Paris', 'originagenda_title': "Cité des sciences et de l'industrie", 'canonicalurl': 'https://openagenda.com/echosciences/events/peut-on-sentendre-penser', 'firstdate_begin': '2026-06-02 17:00:00+00:00', 'lastdate_end': '2026-06-02 18:30:00+00:00'}
+Content:
+Titre : Peut-on s’entendre penser ?
+Description courte : Dans le cadre des Insolites, la conférence qui répond à une question de science inattendue.
+Description longue : Une exploration vivante des multiples formes de nos voix intérieures, à travers des expériences introspectives, des éclairages neuroscientifiques et des lectures littéraires et poétiques. Avec Hélène Loevenbruck , linguiste, directrice de recherche CNRS, responsable de l’équipe Langage, Laboratoire de Psychologie et NeuroCognition, Université Grenoble Alpes. Médaille de bronze du CNRS 2006. FERMETURE DES PORTES À 19H15
+Conditions : Gratuit sur réservation
+Lieu : Cité des sciences et de l'Industrie
+Adresse : 30 avenue Corentin Cariou, 75019 Paris
+Ville : Paris
+Département : Paris
+Région : Île-de-France
+Agenda source : Cité des sciences et de l'industrie
+Date de début : 2026-06-02 17:00:00+00:00
+Date de fin : 2026-06-02 18:30:00+00:00
+URL : https://openagenda.com/echosciences/events/peut-on-sentendre-penser
+Document2:
+Metadata: {'uid': 37985852, 'title': 'Atelier Fonction publique - DEBOE (RQTH) - départements 75, 92 et 93', 'city': 'Paris', 'department': 'Paris', 'region': 'Ile-de-France', 'location_name': 'DT 75 Paris', 'location_address': '75019 Paris', 'originagenda_title': 'Mes événements France Travail', 'canonicalurl': 'https://openagenda.com/francetravail/events/atelier-fonction-publique-deboe-rqth-departements-75-92-et-93-1179411', 'firstdate_begin': '2026-06-01 13:30:00+00:00', 'lastdate_end': '2026-06-01 15:00:00+00:00'}
+Content:
+Titre : Atelier Fonction publique - DEBOE (RQTH) - départements 75, 92 et 93
+Description courte : Vous êtes en situation de handicap et la Fonction publique vous intéresse. Vous remplissez les conditions suivantes : Vous possédez la nationalité d'un pays de la communauté européenne.
+Description longue : Vous êtes en situation de handicap et la Fonction publique vous intéresse. Vous remplissez les conditions suivantes : Vous possédez la nationalité d'un pays de la communauté européenne. Vous êtes titulaire au minimum d'un baccalauréat. Vous êtes en mesure de travailler à plein temps. Bonne nouvelle ! Votre situation vous permet d'être titularisé(e) comme fonctionnaire par voie dérogatoire sans concours. Au programme : L'obligation d'emploi dans la Fonction publique et les missions du FIPHFP Prés
+Mots-clés : #TousMobilisés, Découverte secteur / métier
+Conditions : nan
+Lieu : DT 75 Paris
+Adresse : 75019 Paris
+Ville : Paris
+Département : Paris
+Région : Ile-de-France
+Agenda source : Mes événements France Travail
+Date de début : 2026-06-01 13:30:00+00:00
+Date de fin : 2026-06-01 15:00:00+00:00
+URL : https://openagenda.com/francetravail/events/atelier-fonction-publique-deboe-rqth-departements-75-92-et-93-1179411
+Document3:
+Metadata: {'uid': 78103145, 'title': 'LES FORCES RONDES', 'city': 'Paris', 'department': 'Paris', 'region': 'Île-de-France', 'location_name': 'Le temps des rues', 'location_address': 'Paris', 'originagenda_title': 'Tournée des équipes Théâtre - Bourgogne-Franche-Comté', 'canonicalurl': 'https://openagenda.com/culture/events/les-forces-rondes-9029560', 'firstdate_begin': '2026-05-30 08:00:00+00:00', 'lastdate_end': '2026-05-31 13:00:00+00:00'}
+Content:
+Titre : LES FORCES RONDES
+Description courte : Compagnie MELAMPO / Eleonora RIBIS
+Description longue : LES FORCES RONDE Compagnie MELAMPO – Eleonora Ribis C’est l’histoire d’un serpent et de sa mue. C’est l’histoire d’un serpent pour parler de bien d’autres choses ... De la nécessité de retrouver le cercle/les cycles et de faire lien, tous ensemble. Une histoire qui se raconte par les paroles et les images d’un théâtre en papier montés sur un vélo. Ce spectacle veut être une recherche plus ample sur le rôle du théâtre et de la narration dans l’espace public, notamment d’un récit par l’image qui s’adresse aux plus petits, à la place de cette narration et au moment collectif qu’elle crée, à la « mue » qui transforme un groupe de personne en communauté, et à la place que trouvent ainsi les tout petits dans ce moment et ce lieu collectif. >>>Teaser : [https://vimeo.com/872849361] (Teaser : https://vimeo.com/872849361 ) Distribution Un projet de Eleonora Ribis et Candice Hayat || Mise en scène - Eleonora Ribis || Comédien - Frédéric Tellier || Illustrations - Marianne Rulland || Texte - Ramona Badescu || Création sonore - Raphaël Aggery et Christophe Pierron || Scénographie - Patricia Lacoulonche || Construction - Julien Lett || Costumes - Julia Morlot || Régie de tournée - Christophe Pierron || Production & Diffusion - Claire Thibault Collaboration artistique sur l’espace public – Camille Perreau || Collaboration artistique à la recherche - Candice Hayat & Julia Peslier PRODUCTION Compagnie Melampo - Eleonora Ribis La compagnie MELAMPO est conventionnée Drac Bourgogne-Franche-Comté. PREMIERS SOUTIENS - PARTENAIRES – COPRODUCTIONS ET PRÉACHATS L’Espace 600 - Scène Conventionnée Art, Enfance, Jeunesse à Grenoble (38), La Minoterie, pôle de création jeune public et d’éducation artistique à Dijon (21), L’Arc, Scène Nationale du Creusot (71), La Maison du développement culturel (MDC) de Gennevilliers (92), Très Tôt Théâtre, Scène Conventionnée de Quimper (29), La PLAJE-Collectif Jeune Public de Bourgogne Franche Comté (dans le cadre d’AJT 2021 et du soutien à la production 2023), MA scène nationale - Pays de Montbéliard (25) (partenaire du cycle de création.s). Financeurs institutionnels : DRAC Bourgogne-Franche-Comté, Région Bourgogne-Franche-Comté (en cours), Ville de Dijon. Âge || Dès 3 ans (grands de crèche et toutes sections de maternelle) Niveaux Scolaires || Crèches (seulement la section des grands ) Petite section de maternelle à la Grande section de maternelle CP Durée de la création : 30 minutes La compagnie MELAMPO || La Compagnie Melampo développe une réflexion singulière sur l’espace théâtrale, sur la notion de proximité et d’intimité dans le rapport acteur/spectateur ouverte à tous les âges. Eleonora Ribis, metteure en scène de la compagnie, travaille un théâtre visuel et une dramaturgie créée par la parole autant que par le corps et le geste. Département de la compagnie || Côte d’Or
+Mots-clés : La mue, nature, société, jeune public, très jeune public, theatre visuel et sonore, espace public, cycle de la nature, kamishibai, image, autrice
+Conditions : nan
+Lieu : Le temps des rues
+Adresse : Paris
+Ville : Paris
+Département : Paris
+Région : Île-de-France
+Agenda source : Tournée des équipes Théâtre - Bourgogne-Franche-Comté
+Date de début : 2026-05-30 08:00:00+00:00
+Date de fin : 2026-05-31 13:00:00+00:00
+URL : https://openagenda.com/culture/events/les-forces-rondes-9029560

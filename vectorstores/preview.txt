@@ -1,0 +1,32 @@
+Query de test: Quelles sont les événemets cuturels à Paris en mar 2026?
+
+Resultat 1:
+Contenu: Ville : Paris
+Département : Paris
+Région : Île-de-France
+Agenda source : Journées européennes du patrimoine 2025 : Île-de-France
+Date de début : 2025-09-20 12:30:00+00:00
+Date de fin : 2025-09-20 14:30:00+00:00
+URL : https://openagenda.com/jep/events/atelier-de-decouverte-du-modelage-de-la-terre
+Metadata: {'uid': 14312427, 'title': 'Atelier de découverte du modelage de la terre', 'city': 'Paris', 'department': 'Paris', 'region': 'Île-de-France', 'location_name': "Bibliothèque centrale du Muséum national d'Histoire naturelle", 'location_address': '38 rue Geoffroy Saint-Hilaire 75005 Paris', 'originagenda_title': 'Journées européennes du patrimoine 2025 : Île-de-France', 'canonicalurl': 'https://openagenda.com/jep/events/atelier-de-decouverte-du-modelage-de-la-terre', 'firstdate_begin': '2025-09-20 12:30:00+00:00', 'lastdate_end': '2025-09-20 14:30:00+00:00'}
+
+Resultat 2:
+Contenu: Ville : Paris
+Département : Paris
+Région : Île-de-France
+Agenda source : Journées européennes du patrimoine 2025 : Île-de-France
+Date de début : 2025-09-20 07:30:00+00:00
+Date de fin : 2025-09-21 15:00:00+00:00
+URL : https://openagenda.com/jep/events/la-conciergerie-fete-la-reouverture-du-circuit-des-tours-de-notre-dame
+Metadata: {'uid': 24853800, 'title': 'La Conciergerie fête la réouverture prochaine du circuit des Tours de Notre-Dame', 'city': 'Paris', 'department': 'Paris', 'region': 'Île-de-France', 'location_name': 'La Conciergerie', 'location_address': '2 boulevard du Palais, 75001 Paris, France', 'originagenda_title': 'Journées européennes du patrimoine 2025 : Île-de-France', 'canonicalurl': 'https://openagenda.com/jep/events/la-conciergerie-fete-la-reouverture-du-circuit-des-tours-de-notre-dame', 'firstdate_begin': '2025-09-20 07:30:00+00:00', 'lastdate_end': '2025-09-21 15:00:00+00:00'}
+
+Resultat 3:
+Contenu: Ville : Paris
+Département : Paris
+Région : Île-de-France
+Agenda source : Journées européennes du patrimoine 2025 : Île-de-France
+Date de début : 2025-09-20 12:00:00+00:00
+Date de fin : 2025-09-21 15:30:00+00:00
+URL : https://openagenda.com/jep/events/visite-libre-le-memorial-de-lincendie-du-bazar-de-la-charite
+Metadata: {'uid': 56645136, 'title': "Visite libre - Le mémorial de l'incendie du Bazar de la Charité", 'city': 'Paris', 'department': 'Paris', 'region': 'Île-de-France', 'location_name': 'Chapelle Notre-Dame-de-Consolation', 'location_address': '23 Rue Jean Goujon, 75008 Paris, France', 'originagenda_title': 'Journées européennes du patrimoine 2025 : Île-de-France', 'canonicalurl': 'https://openagenda.com/jep/events/visite-libre-le-memorial-de-lincendie-du-bazar-de-la-charite', 'firstdate_begin': '2025-09-20 12:00:00+00:00', 'lastdate_end': '2025-09-21 15:30:00+00:00'}
+

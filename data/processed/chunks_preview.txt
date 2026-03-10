@@ -1,0 +1,52 @@
+Chunk 1:
+Metadata: {'uid': 62865307, 'title': 'Peut-on s’entendre penser ?', 'city': 'Paris', 'department': 'Paris', 'region': 'Île-de-France', 'location_name': "Cité des sciences et de l'Industrie", 'location_address': '30 avenue Corentin Cariou, 75019 Paris', 'originagenda_title': "Cité des sciences et de l'industrie", 'canonicalurl': 'https://openagenda.com/echosciences/events/peut-on-sentendre-penser', 'firstdate_begin': '2026-06-02 17:00:00+00:00', 'lastdate_end': '2026-06-02 18:30:00+00:00'}
+Content:
+Titre : Peut-on s’entendre penser ?
+Description courte : Dans le cadre des Insolites, la conférence qui répond à une question de science inattendue.
+Description longue : Une exploration vivante des multiples formes de nos voix intérieures, à travers des expériences introspectives, des éclairages neuroscientifiques et des lectures littéraires et poétiques. Avec Hélène Loevenbruck , linguiste, directrice de recherche CNRS, responsable de l’équipe Langage, Laboratoire de Psychologie et NeuroCognition, Université Grenoble Alpes. Médaille de bronze du CNRS 2006. FERMETURE DES PORTES À 19H15
+Conditions : Gratuit sur réservation
+Lieu : Cité des sciences et de l'Industrie
+Adresse : 30 avenue Corentin Cariou, 75019 Paris
+Ville : Paris
+Département : Paris
+Région : Île-de-France
+
+Chunk 2:
+Metadata: {'uid': 62865307, 'title': 'Peut-on s’entendre penser ?', 'city': 'Paris', 'department': 'Paris', 'region': 'Île-de-France', 'location_name': "Cité des sciences et de l'Industrie", 'location_address': '30 avenue Corentin Cariou, 75019 Paris', 'originagenda_title': "Cité des sciences et de l'industrie", 'canonicalurl': 'https://openagenda.com/echosciences/events/peut-on-sentendre-penser', 'firstdate_begin': '2026-06-02 17:00:00+00:00', 'lastdate_end': '2026-06-02 18:30:00+00:00'}
+Content:
+Ville : Paris
+Département : Paris
+Région : Île-de-France
+Agenda source : Cité des sciences et de l'industrie
+Date de début : 2026-06-02 17:00:00+00:00
+Date de fin : 2026-06-02 18:30:00+00:00
+URL : https://openagenda.com/echosciences/events/peut-on-sentendre-penser
+
+Chunk 3:
+Metadata: {'uid': 37985852, 'title': 'Atelier Fonction publique - DEBOE (RQTH) - départements 75, 92 et 93', 'city': 'Paris', 'department': 'Paris', 'region': 'Ile-de-France', 'location_name': 'DT 75 Paris', 'location_address': '75019 Paris', 'originagenda_title': 'Mes événements France Travail', 'canonicalurl': 'https://openagenda.com/francetravail/events/atelier-fonction-publique-deboe-rqth-departements-75-92-et-93-1179411', 'firstdate_begin': '2026-06-01 13:30:00+00:00', 'lastdate_end': '2026-06-01 15:00:00+00:00'}
+Content:
+Titre : Atelier Fonction publique - DEBOE (RQTH) - départements 75, 92 et 93
+Description courte : Vous êtes en situation de handicap et la Fonction publique vous intéresse. Vous remplissez les conditions suivantes : Vous possédez la nationalité d'un pays de la communauté européenne.
+
+Chunk 4:
+Metadata: {'uid': 37985852, 'title': 'Atelier Fonction publique - DEBOE (RQTH) - départements 75, 92 et 93', 'city': 'Paris', 'department': 'Paris', 'region': 'Ile-de-France', 'location_name': 'DT 75 Paris', 'location_address': '75019 Paris', 'originagenda_title': 'Mes événements France Travail', 'canonicalurl': 'https://openagenda.com/francetravail/events/atelier-fonction-publique-deboe-rqth-departements-75-92-et-93-1179411', 'firstdate_begin': '2026-06-01 13:30:00+00:00', 'lastdate_end': '2026-06-01 15:00:00+00:00'}
+Content:
+Description longue : Vous êtes en situation de handicap et la Fonction publique vous intéresse. Vous remplissez les conditions suivantes : Vous possédez la nationalité d'un pays de la communauté européenne. Vous êtes titulaire au minimum d'un baccalauréat. Vous êtes en mesure de travailler à plein temps. Bonne nouvelle ! Votre situation vous permet d'être titularisé(e) comme fonctionnaire par voie dérogatoire sans concours. Au programme : L'obligation d'emploi dans la Fonction publique et les missions du FIPHFP Prés
+Mots-clés : #TousMobilisés, Découverte secteur / métier
+Conditions : nan
+Lieu : DT 75 Paris
+Adresse : 75019 Paris
+Ville : Paris
+Département : Paris
+Région : Ile-de-France
+Agenda source : Mes événements France Travail
+Date de début : 2026-06-01 13:30:00+00:00
+
+Chunk 5:
+Metadata: {'uid': 37985852, 'title': 'Atelier Fonction publique - DEBOE (RQTH) - départements 75, 92 et 93', 'city': 'Paris', 'department': 'Paris', 'region': 'Ile-de-France', 'location_name': 'DT 75 Paris', 'location_address': '75019 Paris', 'originagenda_title': 'Mes événements France Travail', 'canonicalurl': 'https://openagenda.com/francetravail/events/atelier-fonction-publique-deboe-rqth-departements-75-92-et-93-1179411', 'firstdate_begin': '2026-06-01 13:30:00+00:00', 'lastdate_end': '2026-06-01 15:00:00+00:00'}
+Content:
+Agenda source : Mes événements France Travail
+Date de début : 2026-06-01 13:30:00+00:00
+Date de fin : 2026-06-01 15:00:00+00:00
+URL : https://openagenda.com/francetravail/events/atelier-fonction-publique-deboe-rqth-departements-75-92-et-93-1179411
+

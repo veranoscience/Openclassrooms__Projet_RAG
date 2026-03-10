@@ -1,0 +1,9 @@
+.venv/
+.claude
+.pytest_cache
+.vscode
+__pycache__/
+*.pyc
+.env
+data/raw
+.DS_Store
