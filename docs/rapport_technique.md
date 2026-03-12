@@ -15,43 +15,43 @@
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                        Client (curl / UI)                        │
+│                        Client (curl / UI)                       │
 └───────────────────────────┬─────────────────────────────────────┘
                             │ POST /ask
                             ▼
 ┌─────────────────────────────────────────────────────────────────┐
-│                      API FastAPI                                 │
+│                      API FastAPI                                │
 │   /ask  /rebuild  /health  /metadata                            │
 └───────────────────────────┬─────────────────────────────────────┘
                             │
                             ▼
-┌─────────────────────────────────────────────────────────────────┐
-│                        RAGEngine                                 │
-│                                                                  │
+┌────────────────────────────────────────────────────────────────┐
+│                        RAGEngine                               │
+│                                                                │
 │  ┌─────────────┐   ┌──────────────┐   ┌──────────────────────┐ │
 │  │ _retrieve() │──▶│  _filter()   │──▶│  _build_context()    │ │
 │  │  FAISS k=80 │   │ filtre temp. │   │  formatage texte     │ │
 │  │  score≥0.3  │   │ dédup + tri  │   │  + page_content[:300]│ │
 │  └─────────────┘   └──────────────┘   └──────────┬───────────┘ │
-│                                                   │             │
-│                                                   ▼             │
-│                                       ┌───────────────────────┐ │
-│                                       │   Mistral LLM         │ │
-│                                       │  (mistral-large)      │ │
-│                                       └───────────────────────┘ │
-└─────────────────────────────────────────────────────────────────┘
+│                                                  │             │
+│                                                  ▼             │
+│                                       ┌──────────────────────┐ │
+│                                       │   Mistral LLM        │ │
+│                                       │  (mistral-large)     │ │
+│                                       └──────────────────────┘ │
+└────────────────────────────────────────────────────────────────┘
                             │
                             ▼
 ┌─────────────────────────────────────────────────────────────────┐
-│                    Pipeline de données                           │
-│                                                                  │
+│                    Pipeline de données                          │
+│                                                                 │
 │  OpenAgenda ──▶ fetch_events.py ──▶ preprocess.py               │
-│                                          │                       │
-│                                          ▼                       │
-│                               build_faiss_index.py               │
-│                                          │                       │
-│                                          ▼                       │
-│                               FAISS Index (vectorstores/)        │
+│                                          │                      │
+│                                          ▼                      │
+│                               build_faiss_index.py              │
+│                                          │                      │
+│                                          ▼                      │
+│                               FAISS Index (vectorstores/        │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
@@ -139,17 +139,17 @@ L'inclusion de la description (`page_content[:300]`) a été un facteur clé d'a
 
 | Métrique | Description | Score obtenu |
 |----------|-------------|:------------:|
-| **Faithfulness** | La réponse est-elle fidèle au contexte récupéré ? | 0.36 |
-| **Context Precision** | Le contexte récupéré contient-il peu de bruit ? | 0.50 |
-| **Context Recall** | Les informations clés sont-elles bien récupérées ? | 0.10 |
+| **Faithfulness** | La réponse est-elle fidèle au contexte récupéré ? | 0.4062 |
+| **Context Precision** | Le contexte récupéré contient-il peu de bruit ? | 0.30 |
+| **Context Recall** | Les informations clés sont-elles bien récupérées ? | 0.4667 |
 
 ### 4.3 Analyse des résultats
 
-**Context Precision (0.50)** — Score satisfaisant pour un POC : la moitié des documents récupérés sont pertinents. Le seuil de similarité à 0.3 a permis d'améliorer ce score (0.20 → 0.50) en réduisant le bruit.
+**Context Precision (0.4)** — Score satisfaisant pour un POC : la moitié des documents récupérés sont pertinents. Le seuil de similarité à 0.3 a permis d'améliorer ce score (0.20 → 0.40) en réduisant le bruit.
 
-**Faithfulness (0.36)** — Score modéré. Le LLM reste globalement fidèle au contexte mais génère parfois des reformulations qui s'éloignent des données sources. L'ajout de la description (`page_content[:300]`) a amélioré ce score (0.15 → 0.36).
+**Faithfulness (0.3)** — Score modéré. Le LLM reste globalement fidèle au contexte mais génère parfois des reformulations qui s'éloignent des données sources. L'ajout de la description (`page_content[:300]`) a amélioré ce score (0.15 → 0.3).
 
-**Context Recall (0.10)** — Score faible, attendu avec un ground_truth de haute qualité (gold standard manuel) : les références attendues sont précises (dates, lieux, noms d'artistes) et le contexte récupéré ne contient pas toujours tous ces détails.
+**Context Recall (0.45)** — Score satisfaisant, avec un ground_truth de haute qualité (gold standard manuel) : les références attendues sont précises (dates, lieux, noms d'artistes) et le contexte récupéré ne contient pas toujours tous ces détails.
 
 ### 4.4 Limites identifiées
 
