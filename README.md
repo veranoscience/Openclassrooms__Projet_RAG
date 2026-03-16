@@ -1,7 +1,7 @@
 # Puls-Events RAG
 
 Assistant intelligent de recommandation d'événements culturels à Paris.
-Architecture **RAG** (Retrieval-Augmented Generation) : FAISS + LangChain + Mistral, exposée via une API FastAPI.
+Architecture **RAG** (Retrieval-Augmented Generation) : FAISS + LangChain + Mistral, exposée via une API FastAPI
 
 ---
 
@@ -97,7 +97,7 @@ REBUILD_TOKEN=secret   # Token pour protéger l'endpoint /rebuild
 
 ---
 
-## Pipeline de données (première fois)
+## Pipeline de données 
 
 ```bash
 # 1. Collecter les événements depuis OpenAgenda
@@ -111,7 +111,7 @@ python scripts/build_faiss_index.py --force
 ```
 
 > L'index FAISS est déjà inclus dans le dépôt (`vectorstores/faiss_index/`).
-> Ces étapes sont nécessaires uniquement pour reconstruire à partir de nouvelles données.
+> Ces étapes sont nécessaires uniquement pour reconstruire à partir de nouvelles données
 
 ---
 
@@ -185,7 +185,7 @@ python -m pytest tests/test_engine.py       # moteur RAG
 python -m pytest tests/test_api.py          # endpoints API
 ```
 
-Les tests utilisent des mocks pour FAISS et Mistral : aucune clé API ni GPU requis.
+Les tests utilisent des mocks pour FAISS et Mistral : aucune clé API ni GPU requis
 
 ---
 
@@ -199,13 +199,6 @@ python scripts/generate_references.py
 python scripts/eval_ragas.py --input data/eval/ref_paris.csv --out data/eval/ragas_results.csv
 ```
 
-Résultats obtenus sur 10 questions de référence :
-
-| Métrique | Score |
-|----------|-------|
-| Faithfulness | 0.36 |
-| Context Precision | 0.50 |
-| Context Recall | 0.10 |
 
 ---
 
@@ -223,4 +216,4 @@ docker run -p 8000:8000 --env-file .env puls-events-rag
 
 ## CI/CD
 
-Un workflow GitHub Actions (`.github/workflows/ci.yml`) lance automatiquement les 84 tests unitaires à chaque push sur `main` ou `dev`.
+Un workflow GitHub Actions (`.github/workflows/ci.yml`) lance automatiquement les tests unitaires à chaque push sur `main` ou `dev`.
