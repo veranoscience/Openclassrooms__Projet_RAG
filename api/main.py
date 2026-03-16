@@ -1,9 +1,11 @@
 from __future__ import annotations
 
 import os
+import time
 import threading
-from fastapi import FastAPI, Header, HTTPException
-from fastapi.responses import JSONResponse
+from fastapi import FastAPI, Header, HTTPException, Request
+import pathlib
+from fastapi.responses import HTMLResponse, JSONResponse
 
 from api.schemas import AskRequest, AskResponse, RebuildRequest
 from api.rebuild import rebuild
@@ -14,6 +16,15 @@ app = FastAPI(
     version = "0.1.0",
     description="API RAG (FAISS + LangChain + Mistral) sur événements culturel à Paris",
 )
+
+@app.middleware("http")
+async def add_process_time(request: Request, call_next):
+    start = time.perf_counter()
+    response = await call_next(request)
+    duration = time.perf_counter() - start
+    response.headers["X-Process-Time"] = f"{duration:.3f}s"
+    return response
+
 
 _engine_lock = threading.Lock()
 _engine: RAGEngine | None = None
@@ -38,6 +49,12 @@ def reload_engine() -> None:
             max_events=int(os.getenv("MAX_EVENTS", "8")),
         )
         _engine = RAGEngine(cfg)
+
+
+@app.get("/", response_class=HTMLResponse, include_in_schema=False)
+def chat_ui():
+    html = pathlib.Path("api/static/index.html").read_text(encoding="utf-8")
+    return HTMLResponse(content=html)
 
 
 @app.get("/health")

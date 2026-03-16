@@ -1,117 +1,103 @@
 user_input,retrieved_contexts,response,reference,faithfulness,context_precision,context_recall
-Quels événements cinéma ou court métrage à Paris en mars 2026 ?,"['Titre: Prix Lux 2026 : avant-première du film Sorda\nDébut: 2026-03-05 18:30:00+00:00\nFin: 2026-03-05 21:30:00+00:00\nLieu: Cinéma des Cinéastes\nURL: https://openagenda.com/europe-reunion/events/prix-lux-2026-avant-premiere-du-film-sorda', 'Titre: Prix Lux 2026 : projection du film ""Un simple accident""\nDébut: 2026-03-09 18:30:00+00:00\nFin: 2026-03-09 20:30:00+00:00\nLieu: Cinéma des Cinéastes\nURL: https://openagenda.com/europe-reunion/events/prix-lux-2026-projection-du-film-un-simple-accident', 'Titre: Prix Lux 2026 : projection du film ""Love me Tender""\nDébut: 2026-03-17 18:30:00+00:00\nFin: 2026-03-17 20:30:00+00:00\nLieu: Cinéma des Cinéastes\nURL: https://openagenda.com/europe-reunion/events/prix-lux-2026-projection-du-film-love-me-tender', 'Titre: Ciné-club nordique\nDébut: 2026-03-24 19:00:00+00:00\nFin: 2026-06-16 20:00:00+00:00\nLieu: Le Grand Action\nURL: https://openagenda.com/planlibre/events/cine-club-nordique', 'Titre: Prix Lux 2026 | Projection-débat autour du film ""Valeur sentimentale""\nDébut: 2026-03-29 12:30:00+00:00\nFin: 2026-03-29 14:30:00+00:00\nLieu: Cinéma du Jeu de Paume\nURL: https://openagenda.com/europe-reunion/events/prix-lux-2026-or-projection-debat-autour-du-film-valeur-sentimentale', 'Titre: Prix Lux 2026 : projection du film ""Christy and his brother""\nDébut: 2026-03-30 17:30:00+00:00\nFin: 2026-03-30 19:30:00+00:00\nLieu: Cinéma des Cinéastes\nURL: https://openagenda.com/europe-reunion/events/prix-lux-2026-projection-du-film-christy-and-his-brother']","Voici un événement cinéma à Paris en mars 2026 correspondant à votre demande :
+Quels concerts jazz à Paris en janvier 2026 ?,"[""Titre: LE BALCON : LES LUNDIS MUSICAUX - A New Declaration\nDébut: 2026-01-12 19:00:00+00:00\nFin: 2026-01-12 20:30:00+00:00\nLieu: Théâtre de l'Athénée Louis-Jouvet\nURL: https://openagenda.com/culture/events/les-lundis-musicaux-a-new-declaration"", ""Titre: PEGAZZ & l'HELICON : Schwab Soro\nDébut: 2026-01-24 13:30:00+00:00\nFin: 2026-01-24 16:30:00+00:00\nLieu: Ecole Alésia\nURL: https://openagenda.com/culture/events/schwab-soro-1353233""]","Voici les concerts jazz à Paris en janvier 2026 d'après les documents fournis :
 
-**Prix Lux 2026 : avant-première du film *Sorda***
-- **Dates** : 5 mars 2026, 18h30 - 21h30
-- **Lieu** : Cinéma des Cinéastes (7 Avenue de Clichy, 75017 Paris)
-- **Description** : Projection organisée par le Parlement européen en France.
-- **Lien** : [Plus d'informations](https://openagenda.com/europe-reunion/events/prix-lux-2026-avant-premiere-du-film-sorda)
+- **Titre** : LE BALCON : LES LUNDIS MUSICAUX - A New Declaration
+  **Date** : 12 janvier 2026 à 19h00
+  **Lieu** : Théâtre de l'Athénée Louis-Jouvet, 7 rue Boudreau, Paris
+  **Lien** : [Les Lundis Musicaux - A New Declaration](https://openagenda.com/culture/events/les-lundis-musicaux-a-new-declaration)
 
-D'après les documents fournis, je n'ai pas trouvé d'autres événements dédiés au cinéma ou aux courts métrages en mars 2026.",En mars 2026 à Paris,0.625,0.999999999975,0.0
-Quels concerts jazz à Paris en janvier 2026 ?,"[""Titre: LE BALCON : LES LUNDIS MUSICAUX - A New Declaration\nDébut: 2026-01-12 19:00:00+00:00\nFin: 2026-01-12 20:30:00+00:00\nLieu: Théâtre de l'Athénée Louis-Jouvet\nURL: https://openagenda.com/culture/events/les-lundis-musicaux-a-new-declaration"", ""Titre: PEGAZZ & l'HELICON : Schwab Soro\nDébut: 2026-01-24 13:30:00+00:00\nFin: 2026-01-24 16:30:00+00:00\nLieu: Ecole Alésia\nURL: https://openagenda.com/culture/events/schwab-soro-1353233""]","Voici des concerts jazz à Paris en janvier 2026 d'après les documents fournis :
+- **Titre** : PEGAZZ & l'HELICON : Rose(S)
+  **Date** : 17 janvier 2026 à 19h00
+  **Lieu** : Le Pan Piper, 2 Impasse Lamier 75011 Paris
+  **Lien** : [Pegazz & l'Helicon : Rose(S)](https://openagenda.com/culture/events/pegazz-and-lhelicon-roses)
 
-1. **LE BALCON : LES LUNDIS MUSICAUX - A New Declaration**
-   - **Date** : 12 janvier 2026, 19h00
-   - **Lieu** : Théâtre de l'Athénée Louis-Jouvet (7 rue Boudreau, Paris)
-   - **Artistes** : Kunal Lahiry, Jarrett Ott
-   - **Lien** : [Plus d'informations](https://openagenda.com/culture/events/les-lundis-musicaux-a-new-declaration)
+- **Titre** : PEGAZZ & l'HELICON : Schwab Soro
+  **Date** : 24 janvier 2026 à 13h30
+  **Lieu** : École Alésia, 3 rue d'Alésia, Paris
+  **Lien** : [Schwab Soro](https://openagenda.com/culture/events/schwab-soro-1353233)",LE BALCON : LES LUNDIS MUSICAUX - A New Declaration; PEGAZZ & l'HELICON : Rose(S); PEGAZZ & l'HELICON : Schwab Soro,0.23076923076923078,0.0,0.6666666666666666
+Quels festivals culturels à Paris en mars 2026 ?,['Titre: Festival Forêts en scène\nDébut: 2026-03-18 19:00:00+00:00\nFin: 2026-03-18 22:00:00+00:00\nLieu: Epée de Bois\nURL: https://openagenda.com/scare/events/festival-forets-en-scene'],"Voici un festival culturel à Paris en mars 2026 :
 
-2. **PEGAZZ & l'HELICON : Rose(S)**
-   - **Date** : 17 janvier 2026, 19h00
-   - **Lieu** : Le Pan Piper (2 Impasse Lamier, Paris 11e)
-   - **Mots-clés** : jazz, improvisation, piano préparé
-   - **Lien** : [Plus d'informations](https://openagenda.com/culture/events/pegazz-and-lhelicon-roses)
+- **Titre** : Festival Forêts en scène
+- **Date** : 18 mars 2026, de 19h00 à 22h00
+- **Lieu** : Epée de Bois, 100 rue Mouffetard, Paris
+- **Lien** : [Festival Forêts en scène](https://openagenda.com/scare/events/festival-forets-en-scene)",Festival Forêts en scène,0.875,0.9999999999,1.0
+Quels spectacles de danse à Paris en juin 2026 ?,"[""Titre: L'avenir des reflets\nDébut: 2026-05-19 17:30:00+00:00\nFin: 2026-06-20 21:30:00+00:00\nLieu: Théâtre National de la Colline\nURL: https://openagenda.com/culture/events/lavenir-des-reflets""]","D'après les documents fournis, je n'ai pas trouvé d'événements **spécifiquement dédiés à la danse** à Paris en **juin 2026**.
 
-3. **PEGAZZ & l'HELICON : Schwab Soro**
-   - **Date** : 24 janvier 2026, 13h30
-   - **Lieu** : École Alésia (3 rue d'Alésia, Paris)
-   - **Mots-clés** : duo, jazz, saxophone, contrebasse
-   - **Conditions** : entrée libre
-   - **Lien** : [Plus d'informations](https://openagenda.com/culture/events/schwab-soro-1353233)",En janvier 2026 à Paris,0.23529411764705882,0.49999999995,1.0
+En revanche, voici un événement **multidisciplinaire** incluant potentiellement de la danse, se déroulant en partie en juin :
+
+- **Titre** : L'avenir des reflets
+- **Date** : du 19 mai 2026 (17h30) au 20 juin 2026 (21h30)
+- **Lieu** : Théâtre National de la Colline, 15 rue Malte Brun, Paris
+- **Lien** : [https://openagenda.com/culture/events/lavenir-des-reflets](https://openagenda.com/culture/events/lavenir-des-reflets)",L'avenir des reflets,0.7142857142857143,0.9999999999,1.0
+Quels événements scientifiques à Paris en avril 2026 ?,"[""Titre: Sieste sous la Voie lactée\nDébut: 2024-07-09 14:00:00+00:00\nFin: 2026-08-30 12:45:00+00:00\nLieu: Cité des sciences et de l'Industrie\nURL: https://openagenda.com/aplf-planetariums/events/sieste-sous-la-voie-lactee"", ""Titre: Entre Terre et Ciel...Les lumières de la nuit\nDébut: 2025-09-06 13:00:00+00:00\nFin: 2026-07-05 15:30:00+00:00\nLieu: Cité des sciences et de l'Industrie\nURL: https://openagenda.com/aplf-planetariums/events/les-lumieres-de-la-nuit_218"", ""Titre: Bibliothèque de la Cité des sciences et de l'industrie\nDébut: 2025-12-09 11:00:00+00:00\nFin: 2028-01-09 17:45:00+00:00\nLieu: Cité des sciences et de l'Industrie\nURL: https://openagenda.com/echosciences/events/bibliotheque-des-sciences-et-de-lindustrie-2104267"", ""Titre: Héritage cosmique, un hommage à Queen\nDébut: 2026-01-11 17:00:00+00:00\nFin: 2026-12-20 17:45:00+00:00\nLieu: Cité des sciences et de l'Industrie\nURL: https://openagenda.com/echosciences/events/queen"", ""Titre: Exoplanètes : paroles de Nobel\nDébut: 2026-04-25 13:00:00+00:00\nFin: 2026-04-25 15:00:00+00:00\nLieu: Cité des sciences et de l'Industrie\nURL: https://openagenda.com/echosciences/events/exoplanetes-paroles-de-nobel""]","Voici deux événements scientifiques à Paris en avril 2026, d'après les documents fournis :
+
+- **Titre** : Science actualités
+  **Date** : Du 20 avril 2023 au 28 juin 2026 (horaires d'ouverture de la Cité des sciences)
+  **Lieu** : Cité des sciences et de l'Industrie, 30 avenue Corentin Cariou, 75019 Paris
+  **Lien** : [Science actualités](https://openagenda.com/echosciences/events/science-actualites-1476538)
+
+- **Titre** : Planètes en vue !
+  **Date** : Du 10 octobre 2023 au 4 juillet 2026 (horaires d'ouverture de la Cité des sciences)
+  **Lieu** : Cité des sciences et de l'Industrie, 30 avenue Corentin Cariou, 75019 Paris
+  **Lien** : [Planètes en vue !](https://openagenda.com/aplf-planetariums/events/planetes-en-vue) *(lien incomplet dans le contexte)*",Science actualités; Planètes en vue !; Noisettes,0.0,0.0,0.0
 Quels événements autour du théâtre à Paris en mai 2026 ?,"[""Titre: L'avenir des reflets\nDébut: 2026-05-19 17:30:00+00:00\nFin: 2026-06-20 21:30:00+00:00\nLieu: Théâtre National de la Colline\nURL: https://openagenda.com/culture/events/lavenir-des-reflets"", 'Titre: Notre Humble Avis\nDébut: 2026-05-19 18:30:00+00:00\nFin: 2026-06-06 19:40:00+00:00\nLieu: Athénée Théâtre Louis-Jouvet\nURL: https://openagenda.com/culture/events/notre-humble-avis', ""Titre: Danse-performance dans l'exposition Leonora Carrington\nDébut: 2026-05-23 18:00:00+00:00\nFin: 2026-05-23 21:00:00+00:00\nLieu: Musée du Luxembourg\nURL: https://openagenda.com/culture/events/danse-performance-dans-lexposition-leonora-carrington""]","Voici deux événements autour du théâtre à Paris en mai 2026 :
 
-1. **L'avenir des reflets**
-   - **Dates** : Du 19 mai 2026 (17h30) au 20 juin 2026
-   - **Lieu** : Théâtre National de la Colline (15 rue Malte Brun, Paris)
-   - **Lien** : [L'avenir des reflets](https://openagenda.com/culture/events/lavenir-des-reflets)
+- **Titre** : L'avenir des reflets
+  **Date** : 19 mai 2026 à 17h30
+  **Lieu** : Théâtre National de la Colline, 15 rue Malte Brun, 75020 Paris
+  **Lien** : [L'avenir des reflets](https://openagenda.com/culture/events/lavenir-des-reflets)
 
-2. **Notre Humble Avis**
-   - **Dates** : Du 19 mai 2026 (18h30) au 6 juin 2026
-   - **Lieu** : Athénée Théâtre Louis-Jouvet (4 square de l'Opéra Louis-Jouvet, 75009 Paris)
-   - **Description** : Spectacle mêlant théâtre de masque et théâtre.
-   - **Lien** : [Notre Humble Avis](https://openagenda.com/culture/events/notre-humble-avis)",En mai 2026 à Paris,0.75,0.99999999995,0.0
-Quels événements scientifiques ou conférences à Paris en avril 2026 ?,"[""Titre: Sieste sous la Voie lactée\nDébut: 2024-07-09 14:00:00+00:00\nFin: 2026-08-30 12:45:00+00:00\nLieu: Cité des sciences et de l'Industrie\nURL: https://openagenda.com/aplf-planetariums/events/sieste-sous-la-voie-lactee"", ""Titre: Entre Terre et Ciel...Les lumières de la nuit\nDébut: 2025-09-06 13:00:00+00:00\nFin: 2026-07-05 15:30:00+00:00\nLieu: Cité des sciences et de l'Industrie\nURL: https://openagenda.com/aplf-planetariums/events/les-lumieres-de-la-nuit_218"", ""Titre: Bibliothèque de la Cité des sciences et de l'industrie\nDébut: 2025-12-09 11:00:00+00:00\nFin: 2028-01-09 17:45:00+00:00\nLieu: Cité des sciences et de l'Industrie\nURL: https://openagenda.com/echosciences/events/bibliotheque-des-sciences-et-de-lindustrie-2104267"", ""Titre: Héritage cosmique, un hommage à Queen\nDébut: 2026-01-11 17:00:00+00:00\nFin: 2026-12-20 17:45:00+00:00\nLieu: Cité des sciences et de l'Industrie\nURL: https://openagenda.com/echosciences/events/queen"", ""Titre: Exoplanètes : paroles de Nobel\nDébut: 2026-04-25 13:00:00+00:00\nFin: 2026-04-25 15:00:00+00:00\nLieu: Cité des sciences et de l'Industrie\nURL: https://openagenda.com/echosciences/events/exoplanetes-paroles-de-nobel""]","D'après les documents fournis, voici les événements scientifiques à Paris en avril 2026 :
+- **Titre** : Notre Humble Avis
+  **Date** : 19 mai 2026 à 18h30 (jusqu'au 6 juin 2026)
+  **Lieu** : Athénée Théâtre Louis-Jouvet, 4 square de l'Opéra Louis-Jouvet, 75009 Paris
+  **Lien** : [Notre Humble Avis](https://openagenda.com/culture/events/notre-humble-avis)",Ciné-club nordique; L'avenir des reflets; Notre Humble Avis,0.6666666666666666,0.0,0.6666666666666666
+Quels événements de cinéma ou court métrage à Paris en mars 2026 ?,"['Titre: Prix Lux 2026 : avant-première du film Sorda\nDébut: 2026-03-05 18:30:00+00:00\nFin: 2026-03-05 21:30:00+00:00\nLieu: Cinéma des Cinéastes\nURL: https://openagenda.com/europe-reunion/events/prix-lux-2026-avant-premiere-du-film-sorda', 'Titre: Prix Lux 2026 : projection du film ""Un simple accident""\nDébut: 2026-03-09 18:30:00+00:00\nFin: 2026-03-09 20:30:00+00:00\nLieu: Cinéma des Cinéastes\nURL: https://openagenda.com/europe-reunion/events/prix-lux-2026-projection-du-film-un-simple-accident', 'Titre: Prix Lux 2026 : projection du film ""Love me Tender""\nDébut: 2026-03-17 18:30:00+00:00\nFin: 2026-03-17 20:30:00+00:00\nLieu: Cinéma des Cinéastes\nURL: https://openagenda.com/europe-reunion/events/prix-lux-2026-projection-du-film-love-me-tender', 'Titre: Ciné-club nordique\nDébut: 2026-03-24 19:00:00+00:00\nFin: 2026-06-16 20:00:00+00:00\nLieu: Le Grand Action\nURL: https://openagenda.com/planlibre/events/cine-club-nordique', 'Titre: Prix Lux 2026 | Projection-débat autour du film ""Valeur sentimentale""\nDébut: 2026-03-29 12:30:00+00:00\nFin: 2026-03-29 14:30:00+00:00\nLieu: Cinéma du Jeu de Paume\nURL: https://openagenda.com/europe-reunion/events/prix-lux-2026-or-projection-debat-autour-du-film-valeur-sentimentale', 'Titre: Prix Lux 2026 : projection du film ""Christy and his brother""\nDébut: 2026-03-30 17:30:00+00:00\nFin: 2026-03-30 19:30:00+00:00\nLieu: Cinéma des Cinéastes\nURL: https://openagenda.com/europe-reunion/events/prix-lux-2026-projection-du-film-christy-and-his-brother']","Voici un événement de cinéma à Paris en mars 2026 correspondant à votre demande :
 
-1. **Science actualités**
-   - **Lieu** : Cité des sciences et de l'Industrie (30 avenue Corentin Cariou, 75019 Paris)
-   - **Dates** : Du 20 avril 2023 au 28 juin 2026 (inclut avril 2026)
-   - **Description** : Actualités scientifiques, accessible avec un billet d'entrée aux expositions.
-   - **Lien** : [Science actualités](https://openagenda.com/echosciences/events/science-actualites-1476538)
+- **Titre** : Prix Lux 2026 : avant-première du film *Sorda*
+- **Date** : 5 mars 2026 à 18h30
+- **Lieu** : Cinéma des Cinéastes, 7 Avenue de Clichy, 75017 Paris
+- **Lien** : [Prix Lux 2026 : avant-première du film *Sorda*](https://openagenda.com/europe-reunion/events/prix-lux-2026-avant-premiere-du-film-sorda)
 
-2. **Planètes en vue !**
-   - **Lieu** : Cité des sciences et de l'Industrie (30 avenue Corentin Cariou, 75019 Paris)
-   - **Dates** : Du 10 octobre 2023 au 4 juillet 2026 (inclut avril 2026)
-   - **Lien** : [Planètes en vue](https://openagenda.com/aplf-planetariums/events/planetes-en-vue) *(lien incomplet dans le contexte)*
+D'après les documents fournis, je n'ai pas trouvé d'autres événements de cinéma ou court métrage à Paris en mars 2026.","Physique spatiale, science ou fiction ?; Noisettes; Prix Lux 2026 : avant-première du film Sorda",0.6666666666666666,0.0,0.3333333333333333
+Quels ateliers créatifs à Paris en 2026 ?,"['Titre: Clairières\nDébut: 2024-05-04 15:00:00+00:00\nFin: 2026-10-03 20:00:00+00:00\nLieu: Cité internationale des arts\nURL: https://openagenda.com/planlibre/events/clairieres', 'Titre: Paris des vi(ll)es\nDébut: 2025-10-08 12:00:00+00:00\nFin: 2026-01-24 18:00:00+00:00\nLieu: Cité internationale des arts\nURL: https://openagenda.com/planlibre/events/paris-des-villes', ""Titre: Les vacances numériques de décembre 2025\nDébut: 2025-12-20 10:00:00+00:00\nFin: 2026-01-04 17:00:00+00:00\nLieu: Cité des sciences et de l'Industrie\nURL: https://openagenda.com/echosciences/events/les-vacances-numeriques-de-decembre-2025"", 'Titre: Carrier Bags of Power\nDébut: 2026-01-21 17:00:00+00:00\nFin: 2026-02-21 18:00:00+00:00\nLieu: Cité internationale des arts\nURL: https://openagenda.com/planlibre/events/carrier-bags-of-power', 'Titre: Le Salon de l’Étudiant en Ile-de-France\nDébut: 2026-01-30 09:00:00+00:00\nFin: 2026-02-01 17:00:00+00:00\nLieu: Paris, Porte de Versailles\nURL: https://openagenda.com/lyli/events/le-salon-de-letudiant-en-ile-de-france', ""Titre: Co'Activ\nDébut: 2026-02-11 13:30:00+00:00\nFin: 2026-02-11 16:30:00+00:00\nLieu: Cité des sciences et de l'Industrie\nURL: https://openagenda.com/echosciences/events/coactiv"", 'Titre: ART CAPITAL 2026\nDébut: 2026-02-13 09:00:00+00:00\nFin: 2026-02-15 18:00:00+00:00\nLieu: Grand Palais\nURL: https://openagenda.com/totaleimpro20/events/art-capital-2026', ""Titre: Les vacances numériques de Février 2026\nDébut: 2026-02-21 10:00:00+00:00\nFin: 2026-03-07 17:45:00+00:00\nLieu: Cité des sciences et de l'Industrie\nURL: https://openagenda.com/echosciences/events/les-vacances-numeriques-de-fevrier-2026""]","Voici des ateliers créatifs à Paris en 2026, d'après les documents fournis :
 
-*Note* : ""Noisettes"" ne semble pas être un événement scientifique (description absente). Aucun autre événement spécifique à avril 2026 n'est mentionné.",En avril 2026 à Paris,0.05555555555555555,0.19999999998,0.0
-Quels ateliers ou stages à Paris en décembre 2026 ?,[],"D'après les documents fournis, je n'ai pas trouvé d'événements correspondant spécifiquement à des **ateliers ou stages à Paris en décembre 2026**.
+- **Titre** : Les ateliers de Céline
+  **Date** : Du 26 septembre 2024 au 24 septembre 2026 (horaires variables, vérifiez le lien)
+  **Lieu** : Cité des sciences et de l'Industrie, 30 avenue Corentin Cariou, 75019 Paris
+  **Lien** : [Les ateliers de Céline](https://openagenda.com/echosciences/events/les-ateliers-de-celine)
 
-Le seul événement mentionné dans le contexte est la **Bibliothèque de la Cité des sciences et de l'industrie**, ouverte du **9 décembre 2025 au 9 janvier 2028**, mais il ne s'agit pas d'un atelier ou stage.",Aucun atelier ou stage spécifique à Paris n'est disponible dans la base pour décembre 2026. La Bibliothèque de la Cité des sciences et de l'industrie est ouverte pendant cette période mais aucun atelier n'y est mentionné.,0.0,0.0,0.0
-Je cherche des événements à Paris sur l'art contemporain en 2026,"['Titre: Clairières\nDébut: 2024-05-04 15:00:00+00:00\nFin: 2026-10-03 20:00:00+00:00\nLieu: Cité internationale des arts\nURL: https://openagenda.com/planlibre/events/clairieres', 'Titre: Paris des vi(ll)es\nDébut: 2025-10-08 12:00:00+00:00\nFin: 2026-01-24 18:00:00+00:00\nLieu: Cité internationale des arts\nURL: https://openagenda.com/planlibre/events/paris-des-villes', 'Titre: ART CAPITAL 2026\nDébut: 2026-02-13 09:00:00+00:00\nFin: 2026-02-15 18:00:00+00:00\nLieu: Grand Palais\nURL: https://openagenda.com/totaleimpro20/events/art-capital-2026', 'Titre: Exposition Pixels et poétique\nDébut: 2026-03-26 17:00:00+00:00\nFin: 2026-05-14 17:00:00+00:00\nLieu: Centre tchèque de Paris\nURL: https://openagenda.com/centre-tcheque-de-paris/events/exposition-pixels-et-poetique', ""Titre: Arsène Lupin, le héros qui n'a pas volé son succès !\nDébut: 2026-05-23 15:30:00+00:00\nFin: 2026-05-23 17:00:00+00:00\nLieu: Musée de la préfecture de police\nURL: https://openagenda.com/culture/events/arsene-lupin-le-heros-qui-na-pas-vole-son-succes"", ""Titre: Nocturne de l'exposition « Leonora Carrington »\nDébut: 2026-05-23 17:30:00+00:00\nFin: 2026-05-23 21:59:00+00:00\nLieu: Musée du Luxembourg\nURL: https://openagenda.com/culture/events/nocturne-gratuite-de-lexposition-leonora-carrington"", ""Titre: Danse-performance dans l'exposition Leonora Carrington\nDébut: 2026-05-23 18:00:00+00:00\nFin: 2026-05-23 21:00:00+00:00\nLieu: Musée du Luxembourg\nURL: https://openagenda.com/culture/events/danse-performance-dans-lexposition-leonora-carrington""]","Voici des événements sur l'art contemporain à Paris en **2026** d'après les documents fournis :
+---
+D'après les documents fournis, je n'ai pas trouvé d'autres événements explicitement décrits comme des ateliers créatifs. *""Clairières""* et *""Le cœur, une pompe électrique""* ne mentionnent pas clairement un format d'atelier.","Le cœur, une pompe électrique; Clairières; Les ateliers de Céline",0.0,0.9999999999,0.3333333333333333
+Je cherche des événements sur l'art contemporain à Paris en 2026,"['Titre: Clairières\nDébut: 2024-05-04 15:00:00+00:00\nFin: 2026-10-03 20:00:00+00:00\nLieu: Cité internationale des arts\nURL: https://openagenda.com/planlibre/events/clairieres', 'Titre: Paris des vi(ll)es\nDébut: 2025-10-08 12:00:00+00:00\nFin: 2026-01-24 18:00:00+00:00\nLieu: Cité internationale des arts\nURL: https://openagenda.com/planlibre/events/paris-des-villes', 'Titre: ART CAPITAL 2026\nDébut: 2026-02-13 09:00:00+00:00\nFin: 2026-02-15 18:00:00+00:00\nLieu: Grand Palais\nURL: https://openagenda.com/totaleimpro20/events/art-capital-2026', 'Titre: Exposition Pixels et poétique\nDébut: 2026-03-26 17:00:00+00:00\nFin: 2026-05-14 17:00:00+00:00\nLieu: Centre tchèque de Paris\nURL: https://openagenda.com/centre-tcheque-de-paris/events/exposition-pixels-et-poetique', ""Titre: Arsène Lupin, le héros qui n'a pas volé son succès !\nDébut: 2026-05-23 15:30:00+00:00\nFin: 2026-05-23 17:00:00+00:00\nLieu: Musée de la préfecture de police\nURL: https://openagenda.com/culture/events/arsene-lupin-le-heros-qui-na-pas-vole-son-succes"", ""Titre: Nocturne de l'exposition « Leonora Carrington »\nDébut: 2026-05-23 17:30:00+00:00\nFin: 2026-05-23 21:59:00+00:00\nLieu: Musée du Luxembourg\nURL: https://openagenda.com/culture/events/nocturne-gratuite-de-lexposition-leonora-carrington"", ""Titre: Danse-performance dans l'exposition Leonora Carrington\nDébut: 2026-05-23 18:00:00+00:00\nFin: 2026-05-23 21:00:00+00:00\nLieu: Musée du Luxembourg\nURL: https://openagenda.com/culture/events/danse-performance-dans-lexposition-leonora-carrington""]","Voici deux événements sur l'art contemporain à Paris en 2026, d'après les documents fournis :
 
-1. **Clairières**
-   - **Dates** : Jusqu'au 3 octobre 2026
-   - **Lieu** : Cité internationale des arts (18, rue de l'Hôtel de ville, 75004 Paris)
-   - **Conditions** : Entrée libre
-   - [Lien](https://openagenda.com/planlibre/events/clairieres)
+- **Titre** : Clairières
+  **Date** : Jusqu'au 3 octobre 2026 (horaires non précisés)
+  **Lieu** : Cité internationale des arts, 18 rue de l'Hôtel de ville, 75004 Paris
+  **Lien** : [Clairières](https://openagenda.com/planlibre/events/clairieres)
 
-2. **Paris des vi(ll)es**
-   - **Dates** : Du 8 octobre 2025 au 24 janvier 2026
-   - **Lieu** : Cité internationale des arts (18, rue de l'Hôtel de ville, 75004 Paris)
-   - [Lien](https://openagenda.com/planlibre/events/paris-des-villes)
+- **Titre** : Paris des vi(ll)es
+  **Date** : Du 8 octobre 2025 au 24 janvier 2026 (horaires non précisés)
+  **Lieu** : Cité internationale des arts, 18 rue de l'Hôtel de ville, 75004 Paris
+  **Lien** : [Paris des vi(ll)es](https://openagenda.com/planlibre/events/paris-des-villes)",Clairières; Paris des vi(ll)es; Apprentis graveurs,0.8,0.0,0.6666666666666666
+Quelles visites guidées ou balades culturelles à Paris en janvier 2026 ?,['Titre: Journée Portes Ouvertes\nDébut: 2026-01-31 13:30:00+00:00\nFin: 2026-01-31 16:30:00+00:00\nLieu: Le Cordon Bleu Paris\nURL: https://openagenda.com/semaine-des-metiers-du-tourisme-2026/events/journee-portes-ouvertes-9319315'],"D'après les documents fournis, je n'ai pas trouvé d'événements correspondant à des **visites guidées ou balades culturelles à Paris en janvier 2026**.
 
-3. **Carrier Bags of Power**
-   - **Dates** : Du 21 janvier au 21 février 2026
-   - **Lieu** : Cité internationale des arts (18, rue de l'Hôtel de ville, 75004 Paris)
-   - **Conditions** : Entrée libre
-   - [Lien](https://openagenda.com/planlibre/events/carrier-bags-of-power)",En 2026 à Paris,0.4,0.759523809508619,0.0
-Quels événements musicaux ou concerts à Paris en 2025 ?,"[""Titre: Visite en musique - L'Océanie en musique\nDébut: 2025-05-17 16:30:00+00:00\nFin: 2025-05-17 20:00:00+00:00\nLieu: Musée du Quai Branly - Jacques Chirac\nURL: https://openagenda.com/ndm-2025-ile-de-france/events/visites-musicales-8932936"", 'Titre: OPUS sur la berge\nDébut: 2025-06-21 07:30:00+00:00\nFin: 2025-06-21 21:00:00+00:00\nLieu: Quai Saint Bernard\nURL: https://openagenda.com/fetedelamusique2025/events/opus-sur-la-berge', 'Titre: Cybèle et Oreste\nDébut: 2025-06-21 10:00:00+00:00\nFin: 2025-06-21 12:00:00+00:00\nLieu: 30 bd des batignolles 75017 Paris\nURL: https://openagenda.com/fetedelamusique2025/events/cybele-et-oreste', 'Titre: FESTIVAL 36H EGLISE SAINT EUSTACHE\nDébut: 2025-06-21 10:00:00+00:00\nFin: 2025-06-21 19:00:00+00:00\nLieu: Festival 36h Eglise Saint-Eustache\nURL: https://openagenda.com/fetedelamusique2025/events/festival-36h-eglise-saint-eustache-192023', ""Titre: Mesnil'Hill : Block Party 7 : DJ Set & Live music\nDébut: 2025-06-21 10:00:00+00:00\nFin: 2025-06-21 21:30:00+00:00\nLieu: La Maison du 29 rue boyer\nURL: https://openagenda.com/fetedelamusique2025/events/mesnilhill-block-party-7-dj-set-and-live-music"", 'Titre: AFP x GetMazza présente\nUne Célébration des Sons Afro-Caribéens\nAfrobeat • Amapiano • Ndombolo • Shatta • Dancehall & plus\nDébut: 2025-06-21 10:00:00+00:00\nFin: 2025-06-21 21:59:00+00:00\nLieu: 12 rue commines 75003\nURL: https://openagenda.com/fetedelamusique2025/events/afp-x-getmazza-presente-une-celebration-des-sons-afro-caribeens-afrobeat-amapiano-ndombolo-shatta-dancehall-and-plus', 'Titre: Sous le Radar fête la musique\nDébut: 2025-06-21 11:00:00+00:00\nFin: 2025-06-21 19:00:00+00:00\nLieu: Les Nautes\nURL: https://openagenda.com/fetedelamusique2025/events/sous-le-radar-fete-la-musique-4926891', 'Titre: Une brasserie en musique !\nDébut: 2025-06-21 11:00:00+00:00\nFin: 2025-06-21 21:59:00+00:00\nLieu: Le Welcome Brasserie\nURL: https://openagenda.com/fetedelamusique2025/events/fete-de-la-musique-au-welcome-brasserie']","Voici trois événements musicaux à Paris en 2025 d'après les documents fournis :
+Les événements mentionnés dans le contexte sont soit des expositions (sans indication de visite guidée), soit des ateliers, et aucun ne propose explicitement une balade ou visite guidée pendant cette période.",Clairières; Paris des vi(ll)es; Apprentis graveurs,0.25,0.0,0.0
+Quels événements musicaux à Paris en 2025 ?,"['Titre: OPUS sur la berge\nDébut: 2025-06-21 07:30:00+00:00\nFin: 2025-06-21 21:00:00+00:00\nLieu: Quai Saint Bernard\nURL: https://openagenda.com/fetedelamusique2025/events/opus-sur-la-berge', 'Titre: Cybèle et Oreste\nDébut: 2025-06-21 10:00:00+00:00\nFin: 2025-06-21 12:00:00+00:00\nLieu: 30 bd des batignolles 75017 Paris\nURL: https://openagenda.com/fetedelamusique2025/events/cybele-et-oreste', ""Titre: Mesnil'Hill : Block Party 7 : DJ Set & Live music\nDébut: 2025-06-21 10:00:00+00:00\nFin: 2025-06-21 21:30:00+00:00\nLieu: La Maison du 29 rue boyer\nURL: https://openagenda.com/fetedelamusique2025/events/mesnilhill-block-party-7-dj-set-and-live-music"", 'Titre: AFP x GetMazza présente\nUne Célébration des Sons Afro-Caribéens\nAfrobeat • Amapiano • Ndombolo • Shatta • Dancehall & plus\nDébut: 2025-06-21 10:00:00+00:00\nFin: 2025-06-21 21:59:00+00:00\nLieu: 12 rue commines 75003\nURL: https://openagenda.com/fetedelamusique2025/events/afp-x-getmazza-presente-une-celebration-des-sons-afro-caribeens-afrobeat-amapiano-ndombolo-shatta-dancehall-and-plus', 'Titre: Trigo de la Musique\nDébut: 2025-06-21 10:00:00+00:00\nFin: 2025-06-21 20:00:00+00:00\nLieu: Trigo\nURL: https://openagenda.com/fetedelamusique2025/events/trigo-de-la-musique', 'Titre: Ensemble, célébrons la musique au Archives Nationales\nDébut: 2025-06-21 11:00:00+00:00\nFin: 2025-06-21 17:00:00+00:00\nLieu: Archives nationales de France\nURL: https://openagenda.com/fetedelamusique2025/events/ensemble-celebrons-la-musique', 'Titre: Une brasserie en musique !\nDébut: 2025-06-21 11:00:00+00:00\nFin: 2025-06-21 21:59:00+00:00\nLieu: Le Welcome Brasserie\nURL: https://openagenda.com/fetedelamusique2025/events/fete-de-la-musique-au-welcome-brasserie', 'Titre: Sous le Radar fête la musique\nDébut: 2025-06-21 11:00:00+00:00\nFin: 2025-06-21 19:00:00+00:00\nLieu: Les Nautes\nURL: https://openagenda.com/fetedelamusique2025/events/sous-le-radar-fete-la-musique-4926891']","Voici les événements musicaux à Paris en 2025 d'après les documents fournis :
 
-1. **Jazz envoûtant à l'Esplanade**
-   - **Date** : 8 mars 2025, 17h-18h
-   - **Lieu** : Agence immobilière (ambiance feutrée), Paris 7ème
-   - **Description** : Soirée jazz dans un lieu insolite.
-   - **Lien** : [Plus d'informations](https://openagenda.com/hormur-plateforme-devenements-artistiques-dans-des-lieux-non-conventionnels/events/jazz-envoutant-a-lesplanade-reservez-votre-soiree)
+- **Titre** : Jazz envoûtant à l'Esplanade
+  **Date** : 8 mars 2025, 17h00 - 18h00
+  **Lieu** : Agence immobilière, ambiance feutrée – Paris 7ème
+  **Lien** : [Jazz envoûtant](https://openagenda.com/hormur-plateforme-devenements-artistiques-dans-des-lieux-non-conventionnels/events/jazz-envoutant-a-lesplanade-reservez-votre-soiree)
 
-2. **Trio Balagan - Déhoussé**
-   - **Date** : 22 mars 2025, 14h-14h50
-   - **Lieu** : Lou Pascalou, 14 rue des Panoyaux, Paris 20ème
-   - **Description** : Concert gratuit dans le cadre du Festival Abracadabar-bars.
-   - **Lien** : [Plus d'informations](https://openagenda.com/abracadabar-bars/events/trio-balagan-dehousse)
+- **Titre** : Visite en musique - L'Océanie en musique
+  **Date** : 17 mai 2025, 16h30 - 20h00
+  **Lieu** : Musée du Quai Branly - Jacques Chirac – 37 quai Branly, 75007 Paris
+  **Lien** : [Visite musicale](https://openagenda.com/ndm-2025-ile-de-france/events/visites-musicales-8932936)
 
-3. **Fête de la Bretagne à Paris 15e**
-   - **Dates** : 17-18 mai 2025, 9h-18h30
-   - **Lieu** : Place de la Mairie de Paris 15e (31, rue Péclet)
-   - **Description** : Deux jours de musique, danses et animations bretonnes (gratuit).
-   - **Lien** : [Plus d'informations](https://openagenda.com/fete-de-la-bretagne-2025/events/fete-de-la-bretagne-a-paris-15e-par-paris-breton)",En 2025 à Paris,0.0,0.5592857142745286,0.0
-Quels événements de danse ou spectacle vivant à Paris en juin 2026 ?,"[""Titre: L'avenir des reflets\nDébut: 2026-05-19 17:30:00+00:00\nFin: 2026-06-20 21:30:00+00:00\nLieu: Théâtre National de la Colline\nURL: https://openagenda.com/culture/events/lavenir-des-reflets""]","D'après les documents fournis, voici un événement de spectacle vivant à Paris en juin 2026 :
-
-**L'avenir des reflets**
-- **Dates** : Du 19 mai au 20 juin 2026
-- **Lieu** : Théâtre National de la Colline (15 rue Malte Brun, Paris)
-- **Lien** : [L'avenir des reflets](https://openagenda.com/culture/events/lavenir-des-reflets)",En juin 2026 à Paris,0.8571428571428571,0.9999999999,0.0
-Quelles visites guidées ou balades culturelles à Paris en janvier 2026 ?,['Titre: Journée Portes Ouvertes\nDébut: 2026-01-31 13:30:00+00:00\nFin: 2026-01-31 16:30:00+00:00\nLieu: Le Cordon Bleu Paris\nURL: https://openagenda.com/semaine-des-metiers-du-tourisme-2026/events/journee-portes-ouvertes-9319315'],"D'après les documents fournis, voici une balade culturelle à Paris en janvier 2026 :
-
-**Paris des vi(ll)es**
-- **Dates** : Du 8 octobre 2025 au 24 janvier 2026
-- **Lieu** : Cité internationale des arts (18, rue de l'Hôtel de ville, 75004 Paris)
-- **Lien** : [Plus d'informations](https://openagenda.com/planlibre/events/paris-des-villes)
-
-Les autres événements ne correspondent pas à des visites guidées ou balades culturelles en janvier 2026.",En janvier 2026 à Paris,0.0,0.0,0.0
-Quels festivals culturels à Paris en mars 2026 ?,['Titre: Festival Forêts en scène\nDébut: 2026-03-18 19:00:00+00:00\nFin: 2026-03-18 22:00:00+00:00\nLieu: Epée de Bois\nURL: https://openagenda.com/scare/events/festival-forets-en-scene'],"D'après les documents fournis, voici un festival culturel à Paris en mars 2026 :
-
-**Festival Forêts en scène**
-- **Date** : 18 mars 2026
-- **Lieu** : Epée de Bois (100, rue Mouffetard, Paris)
-- **Description** : Séances spéciales en collaboration avec l'Office national des forêts.
-- **Lien** : [Festival Forêts en scène](https://openagenda.com/scare/events/festival-forets-en-scene)",En mars 2026 à Paris,0.7142857142857143,0.0,0.0
+- **Titre** : Démonstration - Le pianola
+  **Date** : 17 mai 2025, 18h30 - 20h45
+  **Lieu** : Musée des arts et métiers – 60 Rue Réaumur, 75003 Paris
+  **Lien** : [Démonstration pianola](https://openagenda.com/ndm-2025-ile-de-france/events/demonstration-le-pianola)",Jazz envoûtant à l'Esplanade : Réservez votre soirée ! 🎷✨; Visite en musique - L'Océanie en musique; Démonstration - Le pianola,0.07692307692307693,0.0,0.0
+Quels concerts à Lyon en mars 2026 ?,"[""Titre: LE BALCON : LES LUNDIS MUSICAUX - Alice Coote & Julius Drake\nDébut: 2026-03-16 19:00:00+00:00\nFin: 2026-03-16 20:30:00+00:00\nLieu: Théâtre de l'Athénée Louis-Jouvet\nURL: https://openagenda.com/culture/events/les-lundis-musicaux-alice-coote-and-julius-drake"", ""Titre: LE BALCON : LES LUNDIS MUSICAUX - Contes\nDébut: 2026-03-23 19:00:00+00:00\nFin: 2026-03-23 20:30:00+00:00\nLieu: Théâtre de l'Athénée Louis-Jouvet\nURL: https://openagenda.com/culture/events/les-lundis-musicaux-contes"", 'Titre: LES TALENS LYRIQUES - Ascanio in Alba, Mozart\nDébut: 2026-03-25 18:30:00+00:00\nFin: 2026-03-25 21:00:00+00:00\nLieu: Théâtre des Champs Elysées\nURL: https://openagenda.com/culture/events/ascanio-in-alba-mozart']","Désolé, je ne couvre que Paris.",,0.0,,
+Où se passe le concert des Rolling Stones à la Tour Eiffel ?,"['Titre: Visite musicale nocturne « Les Empires », avec Lyre&Muses\nDébut: 2024-05-03 17:00:00+00:00\nFin: 2025-06-27 19:00:00+00:00\nLieu: Arc de triomphe\nURL: https://openagenda.com/arc-de-triomphe/events/visite-musicale-avec-lyreandmuses-5493401', 'Titre: Trio Balagan - Déhoussé\nDébut: 2025-03-22 14:00:00+00:00\nFin: 2025-03-22 14:50:00+00:00\nLieu: Lou Pascalou\nURL: https://openagenda.com/abracadabar-bars/events/trio-balagan-dehousse', 'Titre: Concert intime au piano avec vue sur la Tour Eiffel 🎹✨\nDébut: 2025-04-05 15:30:00+00:00\nFin: 2025-04-05 17:30:00+00:00\nLieu: T2 40m vue sur la Tour Eiffel (Paris 15)\nURL: https://openagenda.com/hormur-plateforme-devenements-artistiques-dans-des-lieux-non-conventionnels/events/concert-intime-au-piano-avec-vue-sur-la-tour-eiffel', 'Titre: HECUBE, PAS HECUBE | Tiago Rodrigues\nDébut: 2025-05-07 18:30:00+00:00\nFin: 2025-07-21 20:35:00+00:00\nLieu: Comédie-Française\nURL: https://openagenda.com/panthea/events/le-bourgeois-gentilhomme-de-moliere-5657347', 'Titre: Opéra national de Paris\nDébut: 2025-05-10 08:30:00+00:00\nFin: 2025-05-10 13:00:00+00:00\nLieu: Opéra garnier\nURL: https://openagenda.com/tous-a-lopera-2025-9-10-et-11-mai-2025/events/cours-de-danse-ou-barre-publique', 'Titre: Les 15 ans de Giant store\nDébut: 2025-05-17 06:00:00+00:00\nFin: 2025-05-17 15:00:00+00:00\nLieu: Giant Notre-Dame\nURL: https://openagenda.com/maiavelo/events/les-15-ans-de-giant-store', 'Titre: Village Festival de la Fête de la Bretagne à Paris 15e - 17 et 18 mai\nDébut: 2025-05-17 09:00:00+00:00\nFin: 2025-05-18 19:00:00+00:00\nLieu: Esplanade de la Mairie du 15ème - 31, rue Péclet 75015 PARIS\nURL: https://openagenda.com/fete-de-la-bretagne-2025/events/village-festival-de-la-fete-de-la-bretagne-a-paris-15e-17-et-18-mai', ""Titre: Promenade guidée autour du Parc Monceau\nDébut: 2025-05-17 12:30:00+00:00\nFin: 2025-05-17 14:30:00+00:00\nLieu: Citéco - Cité de l'Économie\nURL: https://openagenda.com/ndm-2025-ile-de-france/events/promenade-guidee-autour-du-parc-monceau""]",Je n'ai pas trouvé d'événements correspondant.,,1.0,,
+Donne-moi la recette de la quiche lorraine,"['Titre: Atelier cuisine sauvage\nDébut: 2025-01-14 17:00:00+00:00\nFin: 2026-07-05 17:30:00+00:00\nLieu: 22 Rue de la Prévoyance, 94300 Vincennes, France\nURL: https://openagenda.com/econature/events/atelier-cuisine-sauvage-1749542', ""Titre: Atelier gourmand autour des nouilles : l’expérience ramen\nDébut: 2025-03-15 11:00:00+00:00\nFin: 2025-03-16 16:45:00+00:00\nLieu: Cité des sciences et de l'Industrie\nURL: https://openagenda.com/echosciences/events/atelier-gourmand-autour-des-nouilles-lexperience-ramen"", ""Titre: Atelier gourmand autour du goûter\u202f: dorayaki\nDébut: 2025-03-15 14:30:00+00:00\nFin: 2025-03-16 15:30:00+00:00\nLieu: Cité des sciences et de l'Industrie\nURL: https://openagenda.com/echosciences/events/atelier-gourmand-autour-du-gouter-dorayaki"", 'Titre: ROAD SHOW HARi&CO\nDébut: 2025-09-24 09:00:00+00:00\nFin: 2025-09-24 12:00:00+00:00\nLieu: 1 place de la république\nURL: https://openagenda.com/la-grande-semaine-vegetale/events/road-show-hariandco', 'Titre: ROAD SHOW HARi&CO\nDébut: 2025-09-24 14:00:00+00:00\nFin: 2025-09-24 17:00:00+00:00\nLieu: Place de la Bastille\nURL: https://openagenda.com/la-grande-semaine-vegetale/events/road-show-hariandco-8644777', 'Titre: ROAD SHOW HARi&CO\nDébut: 2025-09-25 09:00:00+00:00\nFin: 2025-09-25 12:00:00+00:00\nLieu: 5 parvis alan turing\nURL: https://openagenda.com/la-grande-semaine-vegetale/events/road-show-hariandco-1983765', 'Titre: ROAD SHOW HARi&CO\nDébut: 2025-09-25 14:00:00+00:00\nFin: 2025-09-25 17:00:00+00:00\nLieu: 200 rue du faubourg saint antoine\nURL: https://openagenda.com/la-grande-semaine-vegetale/events/road-show-hariandco-68033', 'Titre: ROAD SHOW HARi&CO\nDébut: 2025-09-26 09:00:00+00:00\nFin: 2025-09-26 12:00:00+00:00\nLieu: Université de la Sorbonne\nURL: https://openagenda.com/la-grande-semaine-vegetale/events/road-show-hariandco-4657338']","Je suis un assistant événementiel, je ne réponds pas à ce type de question.",,0.0,,

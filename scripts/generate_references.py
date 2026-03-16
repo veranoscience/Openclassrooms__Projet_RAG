@@ -5,16 +5,16 @@ API_URL = "http://localhost:8000/ask"
 
 questions = [
    
-    "Quels événements cinéma ou court métrage à Paris en mars 2026 ?",
     "Quels concerts jazz à Paris en janvier 2026 ?",
-    "Quels événements autour du théâtre à Paris en mai 2026 ?",
-    "Quels événements scientifiques ou conférences à Paris en avril 2026 ?",
-    "Quels ateliers ou stages à Paris en décembre 2026 ?",
-    "Je cherche des événements à Paris sur l’art contemporain en 2026",
-    "Quels événements musicaux ou concerts à Paris en 2025 ?",
-    "Quels événements de danse ou spectacle vivant à Paris en juin 2026 ?",
-    "Quelles visites guidées ou balades culturelles à Paris en janvier 2026 ?",
     "Quels festivals culturels à Paris en mars 2026 ?",
+    "Quels spectacles de danse à Paris en juin 2026 ?",
+    "Quels événements scientifiques à Paris en avril 2026 ?",
+    "Quels événements autour du théâtre à Paris en mai 2026 ?",
+    "Quels événements de cinéma ou court métrage à Paris en mars 2026 ?",
+    "Quels ateliers créatifs à Paris en 2026 ?",
+    "Je cherche des événements sur l'art contemporain à Paris en 2026",
+    "Quelles visites guidées ou balades culturelles à Paris en janvier 2026 ?",
+    "Quels événements musicaux à Paris en 2025 ?",
 ]
 
 rows = []

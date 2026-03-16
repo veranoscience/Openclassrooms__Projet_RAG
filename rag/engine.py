@@ -4,6 +4,7 @@ import calendar
 import os
 import re
 from dataclasses import dataclass
+from datetime import date
 from typing import Any
 
 import pandas as pd
@@ -50,7 +51,7 @@ def parse_date(question: str) -> tuple[pd.Timestamp, pd.Timestamp] | None:
         end = start + pd.Timedelta(days=1) - pd.Timedelta(seconds=1)
         return start, end
 
-    # 2) Mois + année : "mars 2026"
+    # Mois + année : "mars 2026"
     m_month = re.search(rf"\b({month_keys})\b\s*(20\d{{2}})\b", q)
     if m_month:
         month = months[m_month.group(1)]
@@ -60,7 +61,7 @@ def parse_date(question: str) -> tuple[pd.Timestamp, pd.Timestamp] | None:
         end = pd.Timestamp(year, month, last_day, 23, 59, 59, tz="UTC")
         return start, end
 
-    # 3) Année seule : "en 2026" / "2026"
+    # Année seule : "en 2026" / "2026"
     m_year = re.search(r"\b(20\d{2})\b", q)
     if m_year:
         year = int(m_year.group(1))
@@ -93,21 +94,25 @@ def deduplicate_docs(docs: list[Document]) -> list[Document]:
         out.append(doc)
     return out
 
-system_prompt = """Tu es un assistant de recommandation culturelle pour Paris.
-Tu dois répondre EXCLUSIVEMENT à partir du contexte fourni ci-dessous.
+system_prompt = """Tu es un assistant de recommandation culturelle pour Paris
+Nous sommes le {current_date}
+
+RÈGLE GÉOGRAPHIQUE :
+Si l'utilisateur mentionne une ville hors Paris (Lyon, Marseille, Bordeaux...), REFUSE DE RÉPONDRE.
+Dis : "Désolé, je ne couvre que Paris"
 
 RÈGLES STRICTES :
-1. Utilise UNIQUEMENT les informations présentes dans le contexte (titre, dates, lieu, description, lien).
-2. N'invente JAMAIS d'informations absentes du contexte (ne suppose pas de prix, programme, artistes non mentionnés).
-3. Si le contexte ne contient pas d'événements correspondant à la question, réponds : "D'après les documents fournis, je n'ai pas trouvé d'événements correspondant à votre demande."
-4. Réponds en français, de manière concise et structurée.
+1. Utilise UNIQUEMENT les informations présentes dans le contexte.
+2. N'invente JAMAIS d'informations absentes du contexte.
+3. Si le contexte ne contient pas d'événements correspondant à la question, réponds : "Je n'ai pas trouvé d'événements correspondant à votre demande."
+4. Réponds en français avec 1 à 2 phrases d'introduction seulement — ne liste pas les événements.
 """
 prompt_template = """Question utilisateur: {question}
 
 Contexte (événements retrouvés dans la base) :
 {context}
 
-Réponse (maximum {max_events} événements, basée uniquement sur le contexte ci-dessus) :"""
+Réponse (1 à 2 phrases d'introduction uniquement — ne liste pas les événements, ils seront affichés automatiquement par l'interface) :"""
 
 @dataclass
 class RAGConfig:
@@ -131,7 +136,7 @@ class RAGEngine:
         self.vs = FAISS.load_local(self.config.faiss_dir, self.embedding, allow_dangerous_deserialization=True)
 
         self.llm = ChatMistralAI(
-            model = os.getenv("MISTAL_MODEL", self.config.mistral_model), 
+            model = os.getenv("MISTRAL_MODEL", self.config.mistral_model), 
             temperature=self.config.temperature,
             max_retries =2,
         )
@@ -204,6 +209,7 @@ class RAGEngine:
             question=question,
             context=context,
             max_events=self.config.max_events,
+            current_date=date.today().strftime("%d %B %Y"),
         )
         ai_msg = self.llm.invoke(messages)
 

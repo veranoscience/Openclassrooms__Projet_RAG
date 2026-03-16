@@ -7,3 +7,5 @@ __pycache__/
 .env
 data/raw
 .DS_Store
+.couverage
+docs/
