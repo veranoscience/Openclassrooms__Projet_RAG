@@ -1,10 +1,7 @@
 """
-Evaluation baseline (offline, sans LLM, sans API).
-Mesure : latence, nb_events retournés, réponse non vide.
+Evaluation baseline (offline, sans LLM, sans API)
+Mesure : latence, nb_events retournés, réponse non vide
 
-Usage:
-    python scripts/eval_baseline.py
-    python scripts/eval_baseline.py --input data/eval/ref_paris.csv --out data/eval/baseline_results.csv
 """
 from __future__ import annotations
 
@@ -48,7 +45,7 @@ def run(input_csv: Path, out_csv: Path) -> None:
     out_csv.parent.mkdir(parents=True, exist_ok=True)
     df.to_csv(out_csv, index=False, encoding="utf-8")
 
-    print("\n=== Résumé ===")
+    print("\n Résumé ")
     print(f"Questions testées : {len(df)}")
     print(f"Latence moyenne   : {df['latency_s'].mean():.2f}s")
     print(f"Events moyens     : {df['nb_events'].mean():.1f}")
